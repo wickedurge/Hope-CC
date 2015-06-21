@@ -1,0 +1,129 @@
+#ghost-button-rounded a {
+    color: #fff!important;
+    text-decoration:none;
+
+}
+
+#headline {
+  padding-top: 8%;
+  font-size: 10em;
+}
+
+#headline h1{ font-size: .5em;
+
+}
+
+#headline h2{
+  font-size: .2em;
+}
+
+#ghost-button-rounded-corners {
+  display: inline-block;
+  width: 5%;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.5em;
+  outline: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+#ghost-button-rounded-corners:hover,
+#ghost-button-rounded-corners:active {
+  background-color: #fff;
+  color: #000;
+}
+}
+
+a #ghost-button-rounded-corners{
+  color:#fff!important;
+  display:none;
+
+}
+
+
+
+ul {
+    list-style-position: inside;
+}
+
+#services {
+  background-color: #FEA11E;
+  color:#fff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#dark{
+background-color: #e4901b;
+min-height: 300px;
+}
+
+#light{
+background-color: #feaa34;
+min-height: 300px;
+}
+
+#dark img{
+	width: 380px;
+	height: auto;
+}
+
+.top-3 {
+  background-color: #090;
+  color:white;
+  float:none;
+  margin: 0 auto;
+  width:100%;
+}
+
+.center{
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  text-align: center;
+  color: #fff;
+}
+
+img.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#highlight3{
+  background-color: #090;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#contact{
+background-color: #222;
+  color: #fff;
+  width: 100%
+}
+
+
+footer{
+padding-left: 20%;
+}
+
+
+#grid{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 70%
+}
+ #headline{
+  padding-bottom: 20px;
+ }
+
+
+/* These are the classes that are going to be applied: */
+.column {float: left;}
+.size-1of3 { width: 33.333%; }
