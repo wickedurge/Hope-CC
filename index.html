@@ -14,7 +14,7 @@
     <!-- Hooray for google fonts-->
     <link href='http://fonts.googleapis.com/css?family=Roboto|Roboto+Slab' rel='stylesheet' type='text/css'>
     <!-- Bootstrap core CSS -->
-    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="../../jumbotron.css" rel="stylesheet">
@@ -51,39 +51,55 @@
     });
   });
   </script>
-  <!-- recaptcha-->
-  <script src='https://www.google.com/recaptcha/api.js'></script>
+  
   </head>
 
   <body>
-    
-      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="hope-nav">
+
+   <nav class="navbar navbar-default navbar" role="navigation">
+       <div class="container-fluid" id="navfluid">
+         <div class="navbar-header" id="hope-nav-right">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+        </button>
+       <a class="navbar-brand" href="./Index.html">Hope Christian Counseling</a>
+      </div>
+  <div class="collapse navbar-collapse" id="navigationbar">
+  <ul class="nav navbar-nav navbar-right">
+     <li><a href="#staff">Our Staff</a></li>
+      <li><a href="#2">Services</a></li>    
+      <li><a href="#contact">Contact Us</a></li>
+  </ul>
+  </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </nav>
+
+      <!--<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
-          <div class="navbar-header">
+          <div class="navbar-header" id="hope-nav-right">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            
+           
             <!--Home button -->
-            <div class="hope-nav">
-            <a class="navbar-brand" href="./index.html">Hope Christian Counseling</a></li>
+        <!--<a class="navbar-brand" href="./index.html">Hope Christian Counseling</a></li>
 
                 <!--Navigation -->
-                <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="#services">Services</a></li>
+                <!--<ul class="nav navbar-nav navbar-right">
                 <li><a href="#staff">Our Staff</a></li>
+                <li><a href="#2">Services</a></li>
                 <li><a href="#contact">Contact Us</a></li>
                 </ul>
                 <!--End Navigation -->
-                 </div><!--hope-nav-->
-          </div>
+        <!--</div>
           
           </div><!--/.navbar-collapse -->
-        </div>
+        <!--</div>
       </nav>
  
     <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -99,7 +115,7 @@
       <div class="col-lg-12">
         
         <button id="ghost-button-rounded-corners">
-          <a id="ghost-button" href="#" style="color:#fffff;">&#9660;</a>
+          <a id="ghost-button" href="#staff" id="anchor" style="color:#fffff;">&#9660;</a>
         
         </button>
       </div>
@@ -115,42 +131,61 @@
         <div class="row row-center">
           <div class="col-lg-2 col-lg-offset-3">
            <h2>Personal Christian Counseling</h2>
-             <img src="./images/therapy.jpg" class="img-responsive center-block" >
+             <img src="./images/therapy.png" class="img-responsive center-block" >
             <p>Hope Christian Counseling offers faith based counseling to individuals and families in need. Clients and their therapist can pray together and have the common experience of sharing their faith. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-lg-2">
             <h2>Marriage and Family Therapy</h2>
-            <img src="./images/marriage.jpg" class="img-responsive center-block" >
+            <img src="./images/heart.png" class="img-responsive center-block" >
             <p>Come see the profound difference that therapy based in biblical teaching can make. Hope Christian Counseling helps couples rekindle their relationship through their shared love of Christ.  </p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-lg-2">  
             <h2>Substance Abuse Evaluations</h2>
-            <img src="./images/evals.jpg" class="img-responsive center-block" >
+            <img src="./images/eval.png" class="img-responsive center-block" >
             <p>Learn how biblical principles can help you or a loved one overcome the chains of addiction.  Hope Christian Counseling is internationally certified to help people dependent on drugs and alcohol.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div><!-- center-block-->
       </div><!--row-->
        
     
     </div><!--container fluid-->
-
+<a name="staff" class="anchor"></a>
     <div class="container-fluid">
       <div class="row">
-          <div class="col-lg-2 col-lg-offset-3">
-          <h2 class="text-center">About Randall R. Mey, LMSW</h2>
-         <p>Randall Mey is a licensed MSW and graduate from the Wayne State University school of social work where he received his graduate certificate in social work with couples and families. 
-            </p>
-      </div><!-- close cell (staff)-->
-        </div>
+          <div class="col-lg-12">
+          <h2 class="text-center">Randall R. Mey, LMSW</h2>
+          <p class="text-center">President and Owner
+          </p>
+          </div><!-- close cell (Randall Mey)-->
+        </div><!--close row-->
+        <div class="row">
+          <div class="col-lg-3 col-lg-offset-3">
+            <h4>Qualifications</h4>
+            <ul>
+              <li><strong>Graduate Certificate in Social Work with Couples and Families</strong> <em>Wayne State University 1998</em></>
+              <li><strong>Master of Social Work</strong> <em>Wayne State University 1998</em></li>
+              <li><strong>Master of Public Administration</strong> <em>Central Michigan University 1984</em></li>
+            </ul>
+            </div><!--close bio text-->
+            <div class="col-lg-3">
+            <h4>Additional Credentials</h4>
+            <ul>
+              <li><strong>Internationally Certified Advanced Alcohol and Drug Counselor</strong> <em>International Certification and Reciprocity Consortium</em></li>
+              <li><strong>Certified Advanced Alcohol and Drug Counselor</strong> <em>Michigan Board of Addiction Professionals</em></li>
+              <li><strong>Board Certified Diplomate in Clinical Social Work</strong> <em>American Board of Examiners in Clinical Social Work</em></li>
+              <li><strong>Licensed Marriage and Family Therapist</strong> <em>State of Michigan</em> </li>
+              <li><strong>Licensed Master Social Worker</strong> <em>State of Michigan</em></li>
+            </ul> 
+          </div><!--close qualifications cell-->
+
+        </div><!--close cell-->
       </div><!-- close row-->
+<a name="2" class="anchor"></a>
   <div class="container-fluid" id="services"><!--Specialized services row-->
     <div class="row row-centered">
           <div class="col-lg-12">
             <h2>Our Services</h2>
-            <p>Hope Christian Counseling offers a number of services to help you grow in your emotional and spiritual life</p>
+            <h3>Hope Christian Counseling offers a number of services to help you grow in your emotional and spiritual life</h3>
           </div><!--col-lg-12-->
          
     </div>
@@ -193,7 +228,7 @@
               </ul>
             </div><!--close left content box-->
           <div class="column size-1of3" id="dark"><!--middle content box-->
-            <img src="../images/fish.jpg">
+            <img src="../images/fish.png">
           </div><!--close middle content box-->
           <div class="column size-1of3" id="light"><!-- right content box-->
               <h2 class="text-center">Organizational Services</h2>
@@ -210,7 +245,7 @@
     
  
 
-  <a name="contact"></a> <!--contact menu link-->
+  <a name="contact" class="anchor"></a> <!--contact menu link-->
   <div class="container-fluid" id="contact"><!-- Contact Info Row -->
       <div class="row row-centered">
         <div class="col-lg-12" id="headline">
@@ -218,20 +253,20 @@
         </div><!--close col-lg-12-->
       </div><!--close title row-->
       <div class="row row-centered">
-        <div class="col-lg-9 col-lg-offset-3">
+        <div class="col-lg-3 col-lg-offset-3">
           <div class="form-group">
             <form role="form" action="mail.php" method="post">
-              <label for="name"><h4>Name</h4> <input class="form-control input-lg" type="text" name="name"></label></br>
-              <label for="email"><h4>Email</h4> <input class="form-control" type="email" name="email"></label></br>
-              <label for="phone"><h4>Phone</h4> <input class="form-control"type="phone" name="phone"></label></br>
+              <label for="name"><h4>Name</h4> <input class="form-control input-med" type="text" name="name"></label></br>
+              <label for="email"><h4>Email</h4> <input class="form-control input-med" type="email" name="email"></label></br>
+              <label for="phone"><h4>Phone</h4> <input class="form-control input-med"type="phone" name="phone"></label></br>
               <label for="sel1"><h4>Preferred contact method</h4></label>
-                <select class="form-control" name="preferred">
+                <select class="form-control input-med" name="preferred">
                 <option value="">Select...</option>
                 <option vale="Email">Email</option>
                 <option value="phone">Phone</option>
-                </select>
-                <div class="g-recaptcha" data-sitekey="6Le8dQgTAAAAAMz1I5s64aL4kzZ9rTPEDoWbCbwG"></div>
-                <input class="form-control" type="submit" value="Send">
+                </select></br>
+                <div class="g-recaptcha" data-sitekey="6Le8dQgTAAAAAMz1I5s64aL4kzZ9rTPEDoWbCbwG"></div></br>
+                <input class="form-control input-med" type="submit" value="Send">
             </form>
           </div><!--close bootsrap form styling div-->
         </div><!-- close cell-->
@@ -268,15 +303,16 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
         <script src="../../assets/js/msalvator.min.js"></script>
-
+<!-- recaptcha-->
+  <script src='https://www.google.com/recaptcha/api.js'></script>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAerVjvjJDahp2Og7FUfsxDvC88iCyNQKQ&sensor=true"></script>
     <script src="../../assets/js/gmaps.js"></script>
     <script src="../../assets/js/map.js"></script>
 
-  </body><!-- snazzy map-->
+  </body>
 </html>

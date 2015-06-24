@@ -6380,24 +6380,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-
-h1{
-  font-family: font-family: 'Roboto', sans-serif;
-}
-
-#counseling{
-  background: ##d3d3d3;
-}
-
-#rcorners1 {
-    border-radius: 25px;
-    background: #d3d3d3;
-}
-
-.container-fluid .top-3{
-  display: none;
-  width:60%;
-  background-color: #090;
-  text-align: center;
-  color:white;
-}
