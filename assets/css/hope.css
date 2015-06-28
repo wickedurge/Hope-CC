@@ -199,4 +199,26 @@ h1{
   color:white;
 }
 
+/* Media Query Goodness */
+
+@media(max-width: 480px) {
+  .cover h1 {
+    font-size: .25em !important;
+  }
+  .cover h2 {
+    font-size: .12em !important;
+  }
+
+  button#ghost-button-rounded-corners{
+    display:none;
+  }
+  .size-1of3 {
+    min-width: 260px;
+  }
+
+  #dark{
+  overflow: auto!important; 
+  }
+}
+
 
